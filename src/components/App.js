@@ -3,7 +3,10 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+     <p data-ns-test="project-name">Project</p>
+      <p data-ns-test="project-description">Description</p>
+    </div>
   )
 }
 
