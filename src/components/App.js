@@ -3,10 +3,10 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main">
-     <p data-ns-test="project-name">Project</p>
-      <p data-ns-test="project-description">Description</p>
-    </div>
+   <>
+  <h2 data-ns-test="project-name"> Netflix clone </h2>
+  <p data-ns-test="project-description"> I have cloned same functionality of netflix </p>
+    </>
   )
 }
 
